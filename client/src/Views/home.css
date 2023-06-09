@@ -1,0 +1,156 @@
+.background {
+  background: rgb(0, 55, 139);
+  background: linear-gradient(
+    80deg,
+    rgba(0, 55, 139, 1) 0%,
+    rgba(112, 171, 255, 1) 100%
+  );
+  height: 100vh;
+}
+.topContainer {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+.navbar {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: #ffff;
+}
+
+.navbar button {
+  font-size: x-large;
+  background: transparent;
+  border: transparent;
+  color: #ffff;
+  height: 10px;
+  padding-right: 20px;
+}
+.dropdownButton {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.searchContainer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 96.5%;
+}
+.citiesList{
+  position: relative;
+  height: 100px;
+  overflow: auto;
+  background: transparent;
+  color: white;
+  margin-top: 4px;
+}
+.citiesList li{
+  cursor: pointer;
+  padding: 5px 0 5px 5px;
+  border-top:1px solid white;
+}
+.searchbar:focus {
+  outline-style: none;
+}
+.searchIcon {
+  position: relative;
+  height: 28px;
+  width: 28px;
+  background: transparent;
+  border: transparent;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+
+}
+.weatherHeader {
+  display: flex;
+  gap: 10px;
+}
+.weatherHeader img {
+  width: 70;
+  height: 70px;
+}
+.subDetail {
+  display: flex;
+  margin-top: 5px;
+  gap: 15px;
+}
+.footer {
+  bottom: 0;
+  color: #ffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 80px;
+}
+.footer label {
+  font-size: small;
+}
+.psiContent {
+  background-color: green;
+  padding: 1px;
+}
+.rateRound {
+  display: block;
+  width: 30px;
+  border: 1px solid #fff;
+  border-radius: 80%;
+  background: rgb(163, 201, 255, 1);
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.addButton {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 80%;
+  background: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bottomContainer{
+  display: flex;
+  
+}
+.chartContainer {
+  background: #f3f3f3;
+  width: 100%;
+  height: 40vh;
+  position: relative;
+}
+.overlay {
+  background: #ffff;
+  opacity: 50%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+.failingFetch {
+  margin: auto;
+}
+.popup {
+  color: #030303;
+  margin-top: 150px;
+  position: absolute;
+  width: 98%;
+  padding: 0 10px 0 10px;
+}

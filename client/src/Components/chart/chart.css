@@ -1,0 +1,71 @@
+.chart{
+    height: 240px;
+    width: 44%;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+    margin: auto;
+    background: #ffff;
+    display: flex;
+    scroll-behavior: smooth;
+    position: relative;
+}
+.nightFilter{ 
+    left: 0;
+    position: absolute;
+    height: 282px;
+    width: 490px;
+    background: #797979;
+}
+.dayFilter{
+    left: 0;
+    height: 282px;
+    width: 750px;
+    background: #ffff;
+}
+.d3_canvas{
+    position: relative;
+    width: 4000px;
+}
+.sunLevel{
+    position: absolute;
+    bottom: 0;
+}
+.tideLevel{
+    position: absolute;
+    bottom: 0;
+
+}
+.chart_title{
+    position: fixed;
+    margin-right: 550px;
+    display: flex;
+    gap: 5px; 
+    padding: 10px;
+}
+.chart_titleTide{
+    color: #81d2fa;
+}
+.chart_titleSun{
+    color: orange;
+}
+.chart_measure{
+    background-image: linear-gradient(#fff,#797979);
+    position: fixed;
+    height: 150px;
+    width: 2px;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 52px;
+}
+
+.chart_time{
+    position: fixed;
+    margin-top: 202px;
+    background-color: #797979;
+    width: 44%;
+    color: white;
+    text-align: center;
+}
+.label{
+    background-color: aliceblue;
+}

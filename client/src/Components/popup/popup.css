@@ -1,0 +1,23 @@
+.popupContainer {
+  top: 0px;
+  display: block;
+  background: #ffff;
+  padding: 10px 20px 30px 20px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 10px;
+}
+.inputForm input {
+  margin-bottom: 10px;
+}
+.inputForm button {
+  width: 150px;
+}
+.citiesList{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,16 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menuList {
+  padding-left: 20px;
+}
+.sidebar button {
+  background: transparent;
+  border: transparent;
+  padding-left: 20px;
+  font-size: x-large;
+  color: #fff;
+  cursor: pointer;
+}

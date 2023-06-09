@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "city": "Hanoi",
+      "id": 1
+    },
+    {
+      "city": "Saigon",
+      "id": 2
+    },
+    {
+      "city": "Singapore",
+      "id": 3
+    }
+  ]
+}
